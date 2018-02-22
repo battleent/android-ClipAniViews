@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClipView">
+        <attr name="clip_backgroundColor" format="color"/>
+        <attr name="clip_text" format="string"/>
+        <attr name="clip_textColor" format="color"/>
+        <attr name="clip_textSize" format="integer"/>
+        <attr name="clip_aniDuration" format="integer"/>
+        <attr name="clip_aniStayDuration" format="integer"/>
+    </declare-styleable>
+</resources>
