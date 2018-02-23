@@ -1,5 +1,15 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'battleent'
+    groupId = 'com.github.battleent'
+    artifactId = 'ClipAniViews'
+    publishVersion = '1.0.0'
+    desc = 'This is an android view library "ClipAniViews"'
+    website = 'https://github.com/battleent/android-ClipAniViews'
+}
 
 android {
     compileSdkVersion 26
@@ -26,4 +36,8 @@ dependencies {
 }
 repositories {
     mavenCentral()
+}
+
+tasks.withType(Javadoc).all {
+    enabled = false
 }
