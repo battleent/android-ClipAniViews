@@ -1,12 +1,18 @@
 # android-ClipAniViews
 ![license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+[ ![Download](https://api.bintray.com/packages/battleent/maven/ClipAniViews/images/download.svg) ](https://bintray.com/battleent/maven/ClipAniViews/_latestVersion)
 
 This is an android view library "ClipAniViews" by [Battle Entertainment](https://www.battleent.com/)
 
 ![device-new](https://user-images.githubusercontent.com/13096491/36575045-f2c2d5be-188b-11e8-9dfd-4ea20b384e3c.gif)
 
-
-
+## Download
+#### Gradle
+```java
+dependencies {
+    compile 'com.github.battleent:ClipAniViews:1.0.0'
+}
+```
 
 ## Usage
 ### ClipAniLayout
