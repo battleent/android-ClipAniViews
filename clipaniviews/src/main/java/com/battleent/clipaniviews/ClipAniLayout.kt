@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.battleent.clipaniview
+package com.battleent.clipaniviews
 
 import android.content.Context
 import android.graphics.Typeface
@@ -35,7 +35,7 @@ import android.view.Gravity
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.RelativeLayout
-import com.battleent.clipaniview.component.ClipTextView
+import com.battleent.clipaniviews.component.ClipTextView
 import java.lang.ref.WeakReference
 import java.util.*
 

@@ -1,4 +1,4 @@
-package com.battleent.clipaniview.component
+package com.battleent.clipaniviews.component
 
 import android.graphics.Canvas
 

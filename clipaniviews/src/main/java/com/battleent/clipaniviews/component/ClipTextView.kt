@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.battleent.clipaniview.component
+package com.battleent.clipaniviews.component
 
 import android.content.Context
 import android.graphics.Canvas
