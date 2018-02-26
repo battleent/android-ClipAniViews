@@ -10,7 +10,7 @@ This is an android view library "ClipAniViews" by [Battle Entertainment](https:/
 #### Gradle
 ```java
 dependencies {
-    compile 'com.github.battleent:ClipAniViews:1.0.0'
+    compile 'com.github.battleent:ClipAniViews:1.0.1'
 }
 ```
 #### Maven
@@ -18,7 +18,7 @@ dependencies {
 <dependency>
   <groupId>com.github.battleent</groupId>
   <artifactId>ClipAniViews</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
@@ -26,7 +26,7 @@ dependencies {
 ## Usage
 ### ClipAniLayout
 ```xml
-<com.battleent.clipaniview.ClipAniLayout
+<com.battleent.clipaniviews.ClipAniLayout
         android:layout_width="300dp"
         android:layout_height="150dp"
         app:clip_aniDuration="3"
